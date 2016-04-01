@@ -1,0 +1,14 @@
+{
+  "name": "anddreyko.github.io",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "ejs":"*"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
