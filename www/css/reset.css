@@ -209,9 +209,10 @@ p{
 	text-align:				justify;
 }
 html {
-    font-family: sans-serif;
+    font-family:            'Roboto', Helvetica, sans-serif, Arial, verdana, geneva, lucida, 'lucida grande';
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
 audio,
 canvas,
 progress,
@@ -231,11 +232,13 @@ template {
 
 a {
     background-color: transparent;
+    color: #ffffff;
 }
 
 a:active,
 a:hover {
     outline: 0;
+    color: #ffffff;
 }
 
 abbr[title] {
@@ -687,7 +690,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     font-weight: 300;
 }
 
@@ -760,11 +763,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-    color: #1EAEDB;
+    color: #ffffff;
 }
 
 a:hover {
-    color: #0FA0CE;
+    color: #ffffff;
 }
 
 /* Buttons
@@ -997,7 +1000,7 @@ p,
 ul,
 ol,
 form {
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
 }
 
 /* Utilities

@@ -9,6 +9,6 @@
     "node": "0.12.7"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node app"
   }
 }
