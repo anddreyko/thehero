@@ -55,40 +55,40 @@ function Scroll(){
     frameHeight = $('.f1').height();
     frameBottom = frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f1l1').clearQueue().animate({'top':Path(24,32) +'%'},300);
-        $('.f1l3').clearQueue().animate({'top':Path(24,13) +'%'},300);
+        $('.f1l1').css({'top':Path(24,32) +'%'});
+        $('.f1l3').css({'top':Path(24,13) +'%'});
     }
     frameTop = frameBottom;
     frameHeight = $('.f2').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f2l1').clearQueue().animate({'top':Path(-9,-27) +'%'},300);
+        $('.f2l1').css({'top':Path(-9,-27) +'%'});
     }
     frameTop = frameBottom;
     frameHeight = $('.f3').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f3l1').clearQueue().animate({'top':Path(-1,-17) +'%'},300);
+        $('.f3l1').css({'top':Path(-1,-17) +'%'});
     }    
     frameTop = frameBottom;
     frameHeight = $('.f4').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f4l2').clearQueue().animate({'top':Path(-9,-30) +'%'},300);
-        $('.f4l1').clearQueue().animate({'top':Path(-20,20) +'%'},300);
+        $('.f4l2').css({'top':Path(-9,-30) +'%'});
+        $('.f4l1').css({'top':Path(-20,20) +'%'});
     }
     frameTop = frameBottom;
     frameHeight = $('.f5').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f5l1').clearQueue().animate({'top':Path(13,29) +'%'},300);
+        $('.f5l1').css({'top':Path(13,29) +'%'});
     }
     frameTop = frameBottom;
     frameHeight = $('.f6').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f6l1').clearQueue().animate({'left':Path(55,60) +'%'},300);
-        $('.f6l2').clearQueue().animate({'left':Path(36,32) +'%'},300);
+        $('.f6l1').css({'left':Path(55,60) +'%'});
+        $('.f6l2').css({'left':Path(36,32) +'%'});
     }
 }
 

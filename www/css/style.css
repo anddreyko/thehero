@@ -230,8 +230,7 @@ body, html{
     -moz-box-shadow: 0px 0px 51px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 0px 0px 51px 0px rgba(50, 50, 50, 0.75);
 }
-/*.f1l1, .f1l3, .f2l1, .f3l1, .f4l1, .f4l2, .f4l3, .f5l1, .f6l1, .f6l2, */
-.text-button, .lang {
+.f1l1, .f1l3, .f2l1, .f3l1, .f4l1, .f4l2, .f4l3, .f5l1, .f6l1, .f6l2, .text-button, .lang {
     transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
