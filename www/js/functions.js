@@ -36,9 +36,9 @@ function Resize(){
     $('.text-final p').css({'font-size':(32/k)+'px'});
     $('.text-vote').width('100%');
     $('.text-vote').width($('.text-vote h2').css({'font-size':(50/k)+'px'}).width());
-    //$('.text-skill').css({'top':(80/k)+'px','left':(100/k)+'px'});
-    $('.text-skill h3').css({'font-size':(32/k)+'px'});
-    $('.text-skill p').css({'font-size':(16/k)+'px'});
+    $('.text-skill h3').css({'font-size':(24/k)+'px'});
+    $('.text-skill p').css({'font-size':(18/k)+'px'});
+    $('.text-skill li').css({'height':(700/k)+'px'});
     $('.text-vote p').css({'font-size':(18/k)+'px'});
     $('.text-button').css({'font-size':(28/k)+'px','border-radius':(30/k)+'px','border':(8/k)+'px #ffffff solid'});
     $('.text-footer p').css({'font-size':(20/k)+'px'});
@@ -55,40 +55,40 @@ function Scroll(){
     frameHeight = $('.f1').height();
     frameBottom = frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f1l1').css({'top':Path(24,32) +'%'});
-        $('.f1l3').css({'top':Path(24,13) +'%'});
+        $('.f1l1').clearQueue().animate({'top':Path(24,32) +'%'},300);
+        $('.f1l3').clearQueue().animate({'top':Path(24,13) +'%'},300);
     }
     frameTop = frameBottom;
     frameHeight = $('.f2').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f2l1').css({'top':Path(-9,-27) +'%'});
+        $('.f2l1').clearQueue().animate({'top':Path(-9,-27) +'%'},300);
     }
     frameTop = frameBottom;
     frameHeight = $('.f3').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f3l1').css({'top':Path(-1,-17) +'%'});
+        $('.f3l1').clearQueue().animate({'top':Path(-1,-17) +'%'},300);
     }    
     frameTop = frameBottom;
     frameHeight = $('.f4').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f4l2').css({'top':Path(-9,-30) +'%'});
-        $('.f4l1').css({'top':Path(-20,20) +'%'});
+        $('.f4l2').clearQueue().animate({'top':Path(-9,-30) +'%'},300);
+        $('.f4l1').clearQueue().animate({'top':Path(-20,20) +'%'},300);
     }
     frameTop = frameBottom;
     frameHeight = $('.f5').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f5l1').css({'top':Path(13,29) +'%'});
+        $('.f5l1').clearQueue().animate({'top':Path(13,29) +'%'},300);
     }
     frameTop = frameBottom;
     frameHeight = $('.f6').height();
     frameBottom += frameHeight;
     if (scrollTop <= frameBottom && scrollBottom >= frameTop) {
-        $('.f6l1').css({'left':Path(55,60) +'%'});
-        $('.f6l2').css({'left':Path(36,32) +'%'});
+        $('.f6l1').clearQueue().animate({'left':Path(55,60) +'%'},300);
+        $('.f6l2').clearQueue().animate({'left':Path(36,32) +'%'},300);
     }
 }
 

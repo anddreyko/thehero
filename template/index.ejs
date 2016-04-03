@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="<%=lang%>">
-  <head>
-    <meta charset="utf-8">
-    <title><%=__("Who is hero?")%></title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="www/css/reset.css">
-    <link rel="stylesheet" href="www/css/style.css">
-    <link rel="icon" type="image/png" href="www/img/favicon.png">
-    <script src="www/js/jquery-2.1.3.min.js"></script>
-    <script type='text/javascript' src="www/js/jquery.smoothscroll.js"></script>
-    <script src="www/js/functions.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title><%=__("Who is hero?")%></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="www/css/reset.css">
+        <link rel="stylesheet" href="www/css/style.css">
+        <link rel="icon" type="image/png" href="www/img/favicon.png">
+        <script src="www/js/jquery-2.1.3.min.js"></script>
+        <script type='text/javascript' src="www/js/jquery.smoothscroll.js"></script>
+        <script src="www/js/functions.js"></script>
+        <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-75146687-2', 'auto'); 
+ga('send', 'pageview'); 
+        </script>
     </head>
     <body>
         <div class="wrap">
             <div class="frame f1" height="820">
-                <nav class="lang">
+                <div class="lang">
                     <% if(lang!="ru") { %>
                     <li id="ru"><a href="./ru"> </a></li>
                     <% } %>
                     <% if(lang!="en") { %>
                     <li id="en"><a href="./en"> </a></li>
                     <% } %>
-                </nav>
+                </div>
                 <div class="layout f1l4"></div>
                 <div class="layout start f1l3"></div>
                 <div class="layout f1l2"></div>
@@ -37,19 +43,19 @@
                 <div class="layout f2l2"></div>
                 <div class="layout f2l1"></div>
                 <div class="layout f2t"></div>
-                <article class="layout text t2">
-                    <h2>Герои среди нас</h2>
-                    <p>Они такие же обычные люди, как и мы, но есть то что их отличает – они небезразличны к чужой беде.</p>
-                </article>
+                <div class="layout text t2">
+                    <h2><%=__("Heroes among us")%></h2>
+                    <p><%=__("But the hero always be responsive to other people's trouble.")%></p>
+                </div>
             </div>
             <div class="frame f3" height="560">
                 <div class="layout f3l2"></div>
                 <div class="layout f3l1"></div>
                 <div class="layout f3t"></div>
-                <article class="layout text t3">
-                    <h2>Способны на подвиги</h2>
-                    <p>Готовы пойти на жертвы собственным временем или здоровьем ради другого человека, если это нужно.</p>
-                </article>
+                <div class="layout text t3">
+                    <h2><%=__("Come to the rescue")%></h2>
+                    <p><%=__("The hero is ready to donate their time and health for the sake of other people.")%></p>
+                </div>
             </div>
             <div class="frame f4" height="560">
                 <div class="layout f4l4"></div>
@@ -57,80 +63,80 @@
                 <div class="layout f4l2"></div>
                 <div class="layout f4l1"></div>
                 <div class="layout f4t"></div>
-                <article class="layout text t4">
-                    <h2>Постоят за себя и других</h2>
-                    <p>Постоянное самосовершенствование придает герою уверенности в своих действиях.</p>
-                </article>
+                <div class="layout text t4">
+                    <h2><%=__("Defend yourself and others")%></h2>
+                    <p><%=__("The hero must be confident in his actions, his path nobody will break.")%></p>
+                </div>
             </div>
             <div class="frame f5" height="560">
                 <div class="layout f5l2"></div>
                 <div class="layout f5l1"></div>
                 <div class="layout f5t"></div>
-                <article class="layout text t5">
-                    <h2>Готовы свернуть горы</h2>
-                    <p>Каждый шаг на пути героя является сложным испытанием, но он идет до конца, и достигает своего Олимпа.</p>
-                </article>
+                <div class="layout text t5">
+                    <h2><%=__("To conquer the mountain")%></h2>
+                    <p><%=__("Every step on the path of life a hero is a difficult challenge, but he comes to end of path and reach Olympus.")%></p>
+                </div>
             </div>
             <div class="frame f6" height="560">
                 <div class="layout f6l3"></div>
                 <div class="layout f6l2"></div>
                 <div class="layout f6l1"></div>
                 <div class="layout f6t"></div>
-                <article class="layout text t6">
-                    <h2>Внимательны к людям</h2>
-                    <p>Иногда что бы быть героям, достаточно проявить немного доброты к окружающим людям, главное, чтобы добро было искренним.</p>
-                </article>
+                <div class="layout text t6">
+                    <h2><%=__("Considerate to the people")%></h2>
+                    <p><%=__("Should be enough just a little kindness to the people that will make your and stranger day happier.")%></p>
+                </div>
             </div>
             <div class="frame f7" height="1000">
                 <div class="layout f7l1"></div>
                 <div class="layout f7t"></div>
-                <article class="layout text-final t7">
-                    <h2>Каждый может стать героем</h2>
-                    <p>Добрые поступки являются выраженным примером для других людей. Добро передается другому, делая этот день или даже мир чуточку лучше и ярче. Разве не это является целью героя?</p>
-                </article>
-            </div>
-            <div class="frame f8" height="700">
-                <div class="layout f8l4"></div>
-                <ul class="layout text-skill"><li id="f8i1">
-                    <h3>Целеустремленность</h3>
-                    <p>Герой - это сильный человек, который готов бороться за свою цель. он будет часто падать или спотыкаться, но всё равно продолжит свой путь к цели, и обязательно ее добьется.</p>
-                </li>
-                <li id="f8i2">
-                    <h3>Благородство</h3>
-                    <p>Герой совершает благородные поступки от чистого сердца, подобно рыцарю, защищает свою честь и борется за благо других людей.</p>
-                </li>
-                <li id="f8i3">
-                    <h3>Ответственность</h3>
-                    <p>Когда в руках героя находится чья-то жизнь, он действует немедленно, ведь кто еще сможет помочь человеку в сложной для него ситуации?</p>
-                </li></ul>
+                <div class="layout text-final t7">
+                    <h2><%=__("Everyone can be a hero")%></h2>
+                    <p><%=__("Your good deeds motivate of other people to be kinder, infect them with his kindness. Good mood will be transmitted from human to human. Thus, you make a day, or even the world a better.")%></p>
+                </div>
             </div>
             <div class="frame f9" height="700">
                 <div class="layout f9l4"></div>
                 <ul class="layout text-skill"><li id="f9i1">
-                    <h3>Милосердие</h3>
-                    <p>Сопереживание чужой беде, движет героем прйти на помощь тогда, когда это действительно нужно.</p>
+                    <h3><%=__("Mercy")%></h3>
+                    <p><%=__("Compassion to other people, driven the hero to come in and help when need it.")%></p>
                 </li>
                 <li id="f9i2">
-                    <h3>Альтруизм</h3>
-                    <p>Как часто люди помогают друг-другу просто так? А ведь настоящие герои даже и не задумываются об отдаче, они делают свою работу без корысти.</p>
+                    <h3><%=__("Altruism")%></h3>
+                    <p><%=__("How often people help each other just like that? But the real heroes do not even think about gratitude, they do their job without self-interest.")%></p>
                 </li>
                 <li id="f9i3">
-                    <h3>Смелость</h3>
-                    <p>Твердая воля и храброе сердце позволяет герою сделать шаг вперед, когда от его решения зависит собственная или чужая судьба.</p>
+                    <h3><%=__("Courage")%></h3>
+                    <p><%=__("When the decision of the hero depends on own or another man's destiny, a brave heart helps the hero to step forward.")%></p>
+                </li></ul>
+            </div>
+            <div class="frame f8" height="700">
+                <div class="layout f8l4"></div>
+                <ul class="layout text-skill"><li id="f8i1">
+                    <h3><%=__("Purposeful")%></h3>
+                    <p><%=__("Hero - a powerful man who is ready to fight for their purpose. He would often fall or stumble, but still continue to move straight to the goal")%></p>
+                </li>
+                <li id="f8i2">
+                    <h3><%=__("Nobleness")%></h3>
+                    <p><%=__("Hero makes a noble deeds from the heart, like the knight defends his honor and fighting for lives of other people.")%></p>
+                </li>
+                <li id="f8i3">
+                    <h3><%=__("Responsibility ")%></h3>
+                    <p><%=__("The hero always helps the person in a difficult situation where someone's life depends on the hero.")%></p>
                 </li></ul>
             </div>
             <div class="frame f10" height="700">
                 <div class="layout f10l2"></div>
                 <div class="layout f10l1"></div>
-                <article class=" text-vote">
+                <div class=" text-vote">
                     <h2><%=__("Support the project")%></h2>
                     <p><%=__("If you like the web site, you can vote for of his author. Your vote will help me to reach the final!")%></p>
                     <a target="_blank" href="#"><div class="text-button"><%=__("Go to project page")%></div></a>
-                </article>
-                <footer class="layout text-footer">
+                </div>
+                <div class="layout text-footer">
                     <p><%=__("All illustrations are made by me or published by the standard license")%></p>
                     <small><%-__("Copyright © Arkhipov Andrew 2016 Special for Master of Code")%></small>
-                </footer>
+                </div>
             </div>
         </div>
     </body>
