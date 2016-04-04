@@ -501,92 +501,11 @@ body, html{
     font-size: 120%;
     text-align: center;
     margin: 0 auto;
-}/*
-ul.text-skill{
-    list-style: none;
-    top: 11%;
-    left: 9%;
-    width: 100%;
-    height: 100%;
 }
-ul.text-skill li{
-    width: 36%;
-    min-height: 28%;
-    position: relative;
-}
-.f8 ul.text-skill li{
-    right: -44%;
-}
-ul.text-skill li:before{
-    content: '';
-    padding: 100%;
-    left:-14%;
-    position:absolute;
-}
-ul.text-skill #f8i1:before{
-    background: url(../img/f8l1.png) no-repeat 64% 0;
-    background-size:6%;
-    -webkit-background-size:6%;
-    -o-background-size:6%;
-    -moz-background-size:6%;
-}
-ul.text-skill #f8i2:before{
-    background: url(../img/f8l2.png) no-repeat 64% 0;
-    background-size:6%;
-    -webkit-background-size:6%;
-    -o-background-size:6%;
-    -moz-background-size:6%;
-}
-ul.text-skill #f8i3:before{
-    background: url(../img/f8l3.png) no-repeat 64% 0;
-    background-size:6%;
-    -webkit-background-size:6%;
-    -o-background-size:6%;
-    -moz-background-size:6%;
-}
-ul.text-skill #f9i1:before{
-    background: url(../img/f9l1.png) no-repeat 0 0;
-    background-size:6%;
-    -webkit-background-size:6%;
-    -o-background-size:6%;
-    -moz-background-size:6%;
-}
-ul.text-skill #f9i2:before{
-    background: url(../img/f9l2.png) no-repeat 0 0;
-    background-size:6%;
-    -webkit-background-size:6%;
-    -o-background-size:6%;
-    -moz-background-size:6%;
-}
-ul.text-skill #f9i3:before{
-    background: url(../img/f9l3.png) no-repeat 0 0;
-    background-size:6%;
-    -webkit-background-size:6%;
-    -o-background-size:6%;
-    -moz-background-size:6%;
-}
-.text-skill h3{
-    font-size: 20px;    *//*32*//*
-    font-weight: bold;
-    padding-bottom: 2%;
-}
-.text-skill p{
-    font-size: 10px;    *//*16*//*
-}
-.f8 .text-skill h3{
-    font-size: 20px;    *//*32*//*
-    font-weight: bold;
-    padding-bottom: 2%;
-    text-align: right;
-}
-.f8 .text-skill p{
-    font-size: 10px;    *//*16*//*
-    text-align: right;
-}*/
 .text-skill{
     width: 51%;
     margin: 0 auto;
-    top: 35%;
+    top: 20%;
     left: 24%;
     display: block;
     margin: 0 auto 0 auto;
@@ -599,60 +518,49 @@ ul.text-skill #f9i3:before{
     display: inline-block;
     margin-right: 14%;
     position: relative;
+    padding-top: 15%;
     height: 560px;
+    -webkit-background-size:60% !important;
+    -o-background-size:60% !important;
+    -moz-background-size:60% !important;
+    background-size:60% !important;
+}
+.text-skill li#f8i1{
+    background: url(../img/f8l1.png) no-repeat 50% 0;
+}
+.text-skill li#f8i2{
+    background: url(../img/f8l2.png) no-repeat 50% 0;
+}
+.text-skill li#f8i3{
+    background: url(../img/f8l3.png) no-repeat 50% 0;
+}
+.text-skill li#f9i1{
+    background: url(../img/f9l1.png) no-repeat 50% 0;
+}
+.text-skill li#f9i2{
+    background: url(../img/f9l2.png) no-repeat 50% 0;
+}
+.text-skill li#f9i3{
+    background: url(../img/f9l3.png) no-repeat 50% 0;
 }
 .text-skill li:last-of-type{
     margin-right: 0;
-}
+}/*
 .text-skill li:before{
     content: '';
-    padding: 23%;
-    left: 30%;
-    top: -15%;
+    padding: 20%;
+    left: 115%;
+    top: 13%;
     position:absolute;
+    border-bottom: #ffffff dotted 4px;
 }
-.text-skill li#f9i1:before{
-    background: url(../img/f9l1.png) no-repeat 50% 50%;
-    background-size:100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    -moz-background-size:100%;
-}
-.text-skill li#f9i2:before{
-    background: url(../img/f9l2.png) no-repeat 50% 50%;
-    background-size:100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    -moz-background-size:100%;
-}
-.text-skill li#f9i3:before{
-    background: url(../img/f9l3.png) no-repeat 50% 50%;
-    background-size:100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    -moz-background-size:100%;
-}
-.text-skill li#f8i1:before{
-    background: url(../img/f8l1.png) no-repeat 50% 50%;
-    background-size:100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    -moz-background-size:100%;
-}
-.text-skill li#f8i2:before{
-    background: url(../img/f8l2.png) no-repeat 50% 50%;
-    background-size:100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    -moz-background-size:100%;
-}
-.text-skill li#f8i3:before{
-    background: url(../img/f8l3.png) no-repeat 50% 50%;
-    background-size:100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    -moz-background-size:100%;
-}
+.text-skill li:last-of-type:before{
+    padding: 0%;
+    left: 0%;
+    top: 0%;
+    position:absolute;
+    border-bottom: #ffffff dotted 0;
+}*/
 .text-skill li h3{
     font-size: 24px;
     font-weight: bold;
@@ -707,7 +615,6 @@ a>.text-button:hover {
     text-align: center;
     bottom: 0;
     background: rgba(0,0,0,0.5);
-    padding: 1%;
     z-index: 99;
 }
 .text-footer p{
