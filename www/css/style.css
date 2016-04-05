@@ -481,6 +481,7 @@ body, html{
 }
 .text h2{
     font-size: 120%;
+    font-weight: 500;
 }
 .text p{
     font-size: 100%;
@@ -495,6 +496,7 @@ body, html{
     font-size: 200%;
     text-align: center;
     margin: 0 auto;
+    font-weight: 500;
 }
 .text-final p{
     width: 59%;
@@ -545,22 +547,7 @@ body, html{
 }
 .text-skill li:last-of-type{
     margin-right: 0;
-}/*
-.text-skill li:before{
-    content: '';
-    padding: 20%;
-    left: 115%;
-    top: 13%;
-    position:absolute;
-    border-bottom: #ffffff dotted 4px;
 }
-.text-skill li:last-of-type:before{
-    padding: 0%;
-    left: 0%;
-    top: 0%;
-    position:absolute;
-    border-bottom: #ffffff dotted 0;
-}*/
 .text-skill li h3{
     font-size: 24px;
     font-weight: bold;

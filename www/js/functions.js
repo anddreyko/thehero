@@ -38,8 +38,6 @@ function Resize(){
     $('.text-vote').width($('.text-vote h2').css({'font-size':(50/k)+'px'}).width());
     $('.text-skill h3').css({'font-size':(24/k)+'px'});
     $('.text-skill p').css({'font-size':(18/k)+'px'});
-    // $('.text-skill li:before').css({'top':(18/k)+'%'});
-    // $('.text-skill li:before').css({'border-bottom':'#ffffff dotted '+(6/k)+'px'});
     $('.text-vote p').css({'font-size':(18/k)+'px'});
     $('.text-button').css({'font-size':(28/k)+'px','border-radius':(30/k)+'px','border':(8/k)+'px #ffffff solid'});
     $('.text-footer p').css({'font-size':(20/k)+'px'});
