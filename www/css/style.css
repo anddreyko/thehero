@@ -274,7 +274,7 @@ body, html{
     background: #a1c240;
     height: 632px;
 }
-.f10{
+.f8{
     background: #2a5072;
     height: 440px;
 }
@@ -433,13 +433,13 @@ body, html{
     top: 0;
 }
 .f8l4{
-    background: url(../img/f8l4.jpg) no-repeat 50% 50%;
+    /*background: url(../img/f8l4.jpg) no-repeat 50% 50%;*/
     width: 100%;
     height: 100%;
     top: 0;
 }
 .f9l4{
-    background: url(../img/f9l4.jpg) no-repeat 50% 50%;
+    /*background: url(../img/f9l4.jpg) no-repeat 50% 50%;*/
     width: 100%;
     height: 100%;
     top: 0;
