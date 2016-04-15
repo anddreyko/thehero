@@ -8,7 +8,7 @@ var server = http.createServer(app);
 i18n.configure({
     locales:['en', 'ru'],
     directory: __dirname + '/lang',
-    defaultLocale: 'ru',
+    defaultLocale: 'en',
     cookie: 'theherolang',
     register: global
 });

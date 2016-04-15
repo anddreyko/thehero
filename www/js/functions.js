@@ -9,6 +9,8 @@ var frameTop;
 var frameBottom;
 var frameHeight;
 var wrap;
+var output;
+var i;
 
 $(function(){
     Resize();
